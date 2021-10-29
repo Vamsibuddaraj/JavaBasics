@@ -12,7 +12,7 @@ public class FileInputStreamExample {
 			FileInputStream fin=new FileInputStream("C:\\Users\\vamsi\\OneDrive\\Desktop\\testout.txt");
 			int i=0;
 			while((i=fin.read())!=-1) {
-				System.out.print((char)i);
+				System.out.println((char)i);
 			}
 			fin.close();
 		} catch (FileNotFoundException e) {
